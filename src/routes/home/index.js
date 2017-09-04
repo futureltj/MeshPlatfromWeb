@@ -15,7 +15,7 @@ const bodyStyle = {
 }
 
 function Home ({ home }) {
-  let { streamdata} = home
+  let { streamdata,staffLocation, devLocation } = home
   /*
   const numberCards = numbers.map((item, key) => (<Col key={key} lg={6} md={12}>
     <NumberCard {...item} />
@@ -217,7 +217,7 @@ function Home ({ home }) {
                 padding: '24px 36px 24px 0',
               }}
         >
-          <FactoryMap/>
+          <FactoryMap staff={staffLocation} device={devLocation} />
         </Card>
       </Col>
       <Col lg={8} md={24}>

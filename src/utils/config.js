@@ -1,4 +1,4 @@
-const BaseURL = 'http://artadv.cn:7777'
+const BaseURL = 'http://artadv.cn'
 const APIV1 = BaseURL+'/PlatformAPI/v1'
 module.exports = {
   name: '工业大数据管理平台',
@@ -8,7 +8,7 @@ module.exports = {
   iconFontCSS: '/iconfont.css',
   iconFontJS: '/iconfont.js',
   YQL: ['http://www.zuimeitianqi.com'],
-  CORS: ['http://artadv.cn:7777/'],
+  CORS: ['http://artadv.cn/'],
   openPages: ['/login'],
   apiPrefix: '/api/v1',
   api: {

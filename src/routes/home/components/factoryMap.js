@@ -10,14 +10,13 @@ import {
 import styles from './factoryMap.less';
 import devIMG from './device_img_sh.png';
 import staffIMG from './staff.png';
-import picture from './0.png';
 
 const XYZurl = '';
 
 /*******Tile设置工厂现场图**** */
 const tile = new ol.layer.Tile({
   source: new ol.source.XYZ({
-    url: picture,//'./src/routes/home/components/shanghai/{z}/{x}/{y}.png',
+    url: 'http://artadv.cn/files/shanghai/{z}/{x}/{y}.png',//'./src/routes/home/components/shanghai/{z}/{x}/{y}.png',
     crossOrigin: 'null',
     wrapX: false,
     tileSize: 1024
