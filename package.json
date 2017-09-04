@@ -20,6 +20,7 @@
     "mockjs": "^1.0.1-beta3",
     "mqtt": "^2.12.0",
     "nprogress": "^0.2.0",
+    "openlayers": "^4.3.2",
     "path-to-regexp": "^1.7.0",
     "prop-types": "^15.5.10",
     "qs": "^6.5.0",
@@ -29,6 +30,7 @@
     "react-dom": "^15.6.1",
     "react-draft-wysiwyg": "^1.10.0",
     "react-helmet": "^5.1.3",
+    "react-openlayers": "^0.2.1",
     "recharts": "^0.22.4"
   },
   "devDependencies": {

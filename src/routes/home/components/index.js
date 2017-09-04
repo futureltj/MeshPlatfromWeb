@@ -10,4 +10,5 @@ import Cpu from './cpu'
 import User from './user'
 import DynamicChartComponent from './DynamicChartComponent'
 import ElecTimerChart from './ElecTimerChart'
-export { NumberCard, Quote, Sales, Weather, RecentSales, Comments, Completed, Browser, Cpu, User,DynamicChartComponent,ElecTimerChart }
+import FactoryMap from './factoryMap'
+export { NumberCard, Quote, Sales, Weather, RecentSales, Comments, Completed, Browser, Cpu, User,DynamicChartComponent,ElecTimerChart,FactoryMap }

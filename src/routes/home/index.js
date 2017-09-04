@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { connect } from 'dva'
 import { Row, Col, Card } from 'antd'
 import { color } from 'utils'
-import { NumberCard, DynamicChartComponent,ElecTimerChart} from './components'
+import { NumberCard, DynamicChartComponent,ElecTimerChart,FactoryMap} from './components'
 import ReactEcharts from 'echarts-for-react';
 
 import styles from './index.less'
@@ -217,7 +217,7 @@ function Home ({ home }) {
                 padding: '24px 36px 24px 0',
               }}
         >
-          a6
+          <FactoryMap/>
         </Card>
       </Col>
       <Col lg={8} md={24}>
